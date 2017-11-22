@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launcher>
+	<configuration>
+		<start_time>1000</start_time>
+		<interval_time>1000</interval_time>
+	</configuration>
+	<app_items>
+			<app_item 
+			name="TaskManager" 
+			path="C:\Windows\System32\Taskmgr.exe" 
+			args="" 
+			position="0" />
+
+		<app_item 
+			name="Outlook" 
+			path="C:\Program Files (x86)\Microsoft Office\Office15\OUTLOOK.EXE" 
+			args="" 
+			position="1" />
+	
+			
+	</app_items>
+</launcher>

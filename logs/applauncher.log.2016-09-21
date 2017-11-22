@@ -1,0 +1,34 @@
+2016-09-21 09:24:07 [INFO ]	================== APP LAUNCHER ==================
+2016-09-21 09:24:08 [ERROR]	Impossible de lire la configuration : 
+org.xml.sax.SAXParseException; systemId: file:/P:/Secure/PERSO/projects/AppLauncher/launcher.xml; lineNumber: 23; columnNumber: 17; The string "--" is not permitted within comments.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at fr.cmat.core.ConfigurationManager.read(ConfigurationManager.java:45)
+	at fr.cmat.AppLauncher.main(AppLauncher.java:14)
+2016-09-21 09:24:08 [FATAL]	Erreur d'exécution : 
+java.lang.NullPointerException
+	at fr.cmat.core.Launcher.process(Launcher.java:18)
+	at fr.cmat.AppLauncher.main(AppLauncher.java:15)
+2016-09-21 09:24:33 [INFO ]	================== APP LAUNCHER ==================
+2016-09-21 09:24:34 [INFO ]	Launch [TaskManager].
+2016-09-21 09:24:34 [ERROR]	Failed to execute app [TaskManager] [C:\Windows\System32\Taskmgr.exe /7]
+2016-09-21 09:24:47 [INFO ]	================== APP LAUNCHER ==================
+2016-09-21 09:24:48 [INFO ]	Launch [TaskManager].
+2016-09-21 09:24:48 [ERROR]	Failed to execute app [TaskManager] [C:\Windows\System32\Taskmgr.exe /7]
+java.io.IOException: Cannot run program "C:\Windows\System32\Taskmgr.exe": CreateProcess error=740, The requested operation requires elevation
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at fr.cmat.core.Launcher.process(Launcher.java:24)
+	at fr.cmat.AppLauncher.main(AppLauncher.java:15)
+Caused by: java.io.IOException: CreateProcess error=740, The requested operation requires elevation
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 6 more
+2016-09-21 09:28:03 [INFO ]	================== APP LAUNCHER ==================
+2016-09-21 09:28:04 [INFO ]	Launch [TaskManager].
+2016-09-21 09:28:20 [INFO ]	================== APP LAUNCHER ==================
+2016-09-21 09:28:21 [INFO ]	Launch [TaskManager].

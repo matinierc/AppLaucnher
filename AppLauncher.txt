@@ -1,0 +1,12 @@
+Besoins:
+	- Lancer des applications au démarrage de windows
+		- Laisser un délai au système pour être dispo
+		- Pouvoir préciser des argumens de lancement 
+		- Pouvoir organiser l'ordre de lancement (DnD)
+	- La liste des application doit pouvoir évoluer facilement.
+		- Changer l'ordre de démarrage
+		
+	- Pouvoir configurer
+		- Un temps d'attente avant le lancement des programmes
+		- Un temps d'attente entre chaque programme
+		
